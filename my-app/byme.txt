@@ -1,0 +1,7 @@
+esto es una prueba
+
+databing
+{{expresion}}  = interporacion
+[propied] = 
+(event)
+[{gnmode}]
