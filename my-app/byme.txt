@@ -5,3 +5,5 @@ databing
 [propied] = 
 (event)
 [{gnmode}]
+
+esto es una actualizacion 
