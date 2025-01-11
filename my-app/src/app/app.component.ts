@@ -5,10 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  nombre = 'mary jane'
 
-  contructor(){
-    setInterval( ()=>this.nombre= 'Dr Sexo' , 4000)
-  };
-}
+
+export class AppComponent {
+  listaEstudiantes: any[] = [
+    {nombre: "thomas", estado:"promocionado"},
+    {nombre: "ana", estado:"regular"},
+];
