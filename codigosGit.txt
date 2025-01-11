@@ -9,17 +9,16 @@
   Configura tu correo electrónico para todos los repositorios de Git.
 3. `git config --list`
 
-  Muestra la configuración actual de Git.
 
-### Creación y Configuración de Repositorios
+  Muestra la configuración actual de Git.
+Creación y Configuración de Repositorios
 4. `git init`
 
   Inicializa un nuevo repositorio Git en el directorio actual.
 5. `git clone <URL>`
 
   Clona un repositorio remoto en tu máquina local.
-
-### Rastreo y Gestión de Archivos
+ Rastreo y Gestión de Archivos
 6. `git add <archivo>`
 
   Añade un archivo al área de preparación (staging area).
@@ -33,9 +32,9 @@
 
   Elimina un archivo del repositorio y del sistema de archivos.
 10. `git mv <archivo_viejo> <archivo_nuevo>`
-   Cambia el nombre de un archivo y actualiza Git.
 
-### Confirmación de Cambios
+   Cambia el nombre de un archivo y actualiza Git.
+Confirmación de Cambios
 11. `git commit -m "Mensaje del commit"`
 
    Confirma los cambios preparados con un mensaje descriptivo.
@@ -45,8 +44,7 @@
 13. `git commit --amend`
 
    Modifica el último commit (por ejemplo, para cambiar el mensaje).
-
-### Historial
+Historial
 14. `git log`
 
    Muestra el historial de commits.
@@ -55,9 +53,9 @@
    Muestra un historial resumido con un commit por línea.
 16. `git log --graph`
 
-   Muestra un gráfico del historial de ramas y commits.
 
-### Sincronización con Repositorios Remotos
+   Muestra un gráfico del historial de ramas y commits.
+Sincronización con Repositorios Remotos
 17. `git remote add origin <URL>`
 
    Vincula el repositorio local con un repositorio remoto.
@@ -69,8 +67,7 @@
    Descarga y fusiona los cambios del repositorio remoto con la rama actual.
 20. `git push`
 
-   Sube los commits locales al repositorio remoto.
-### Ramas
+   Sube los commits locales al repositorio remoto.Ramas
 21. `git branch`
 
    Lista las ramas locales.
@@ -116,8 +113,7 @@
 34. `git push origin <etiqueta>`
 
    Sube una etiqueta al repositorio remoto.
-
-### Otros Comandos Útiles
+ Otros Comandos Útiles
 35. `git stash`
 
    Guarda temporalmente los cambios no confirmados.
