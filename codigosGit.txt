@@ -1,0 +1,136 @@
+  Lista de Comandos de Git
+
+### Configuración Inicial
+1. `git config --global user.name "Tu Nombre"`
+
+  Configura tu nombre de usuario para todos los repositorios de Git.
+2. `git config --global user.email "tuemail@dominio.com"`
+
+  Configura tu correo electrónico para todos los repositorios de Git.
+3. `git config --list`
+
+  Muestra la configuración actual de Git.
+
+### Creación y Configuración de Repositorios
+4. `git init`
+
+  Inicializa un nuevo repositorio Git en el directorio actual.
+5. `git clone <URL>`
+
+  Clona un repositorio remoto en tu máquina local.
+
+### Rastreo y Gestión de Archivos
+6. `git add <archivo>`
+
+  Añade un archivo al área de preparación (staging area).
+7. `git add .`
+
+  Añade todos los archivos modificados o nuevos al área de preparación.
+8. `git status`
+
+  Muestra el estado actual del repositorio, incluyendo los cambios no rastreados o pendientes de confirma
+9. `git rm <archivo>`
+
+  Elimina un archivo del repositorio y del sistema de archivos.
+10. `git mv <archivo_viejo> <archivo_nuevo>`
+   Cambia el nombre de un archivo y actualiza Git.
+
+### Confirmación de Cambios
+11. `git commit -m "Mensaje del commit"`
+
+   Confirma los cambios preparados con un mensaje descriptivo.
+12. `git commit -a -m "Mensaje del commit"`
+
+   Prepara automáticamente los archivos modificados y los confirma en un solo paso.
+13. `git commit --amend`
+
+   Modifica el último commit (por ejemplo, para cambiar el mensaje).
+
+### Historial
+14. `git log`
+
+   Muestra el historial de commits.
+15. `git log --oneline`
+
+   Muestra un historial resumido con un commit por línea.
+16. `git log --graph`
+
+   Muestra un gráfico del historial de ramas y commits.
+
+### Sincronización con Repositorios Remotos
+17. `git remote add origin <URL>`
+
+   Vincula el repositorio local con un repositorio remoto.
+18. `git fetch`
+
+   Descarga los cambios del repositorio remoto, pero no los aplica.
+19. `git pull`
+
+   Descarga y fusiona los cambios del repositorio remoto con la rama actual.
+20. `git push`
+
+   Sube los commits locales al repositorio remoto.
+### Ramas
+21. `git branch`
+
+   Lista las ramas locales.
+22. `git branch <nombre>`
+
+   Crea una nueva rama.
+23. `git checkout <rama>`
+
+   Cambia a otra rama.
+24. `git checkout -b <rama>`
+
+   Crea y cambia a una nueva rama en un solo paso.
+25. `git merge <rama>`
+
+   Fusiona otra rama con la rama actual.
+26. `git branch -d <rama>`
+
+   Elimina una rama local.
+
+### Revertir Cambios
+27. `git restore <archivo>`
+
+   Revierte los cambios no preparados en un archivo.
+28. `git restore --staged <archivo>`
+
+   Quita un archivo del área de preparación.
+29. `git revert <commit>`
+
+   Crea un nuevo commit que revierte los cambios de un commit anterior.
+30. `git reset <archivo>`
+
+   Desprepara un archivo que estaba en el área de preparación.
+31. `git reset --hard <commit>`
+
+   Restaura todo el repositorio al estado exacto de un commit específico.
+   ### Etiquetas
+32. `git tag <nombre>`
+
+   Crea una etiqueta para marcar un commit importante.
+33. `git tag -a <nombre> -m "Mensaje"`
+
+   Crea una etiqueta con un mensaje.
+34. `git push origin <etiqueta>`
+
+   Sube una etiqueta al repositorio remoto.
+
+### Otros Comandos Útiles
+35. `git stash`
+
+   Guarda temporalmente los cambios no confirmados.
+36. `git stash apply`
+
+   Restaura los cambios guardados con `git stash`.
+37. `git diff`
+
+   Muestra las diferencias entre los archivos modificados y el último commit.
+38. `git show <commit>`
+
+   Muestra información detallada de un commit.
+39. `git clean -f`
+
+   Elimina archivos no rastreados en el directorio de trabajo.
+

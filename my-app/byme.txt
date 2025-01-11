@@ -8,3 +8,11 @@ databing
 
 esto es una actualizacion 
 segunda ctu
+
+
+
+
+
+directivas
+coponente       artributos          escruturas 
+                ngclass 
