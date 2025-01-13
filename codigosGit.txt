@@ -130,3 +130,8 @@ Sincronización con Repositorios Remotos
 
    Elimina archivos no rastreados en el directorio de trabajo.
 
+
+
+
+
+esto sera para hacer un comit
