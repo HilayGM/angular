@@ -11,4 +11,4 @@ export class AppComponent {
   listaEstudiantes: any[] = [
     {nombre: "thomas", estado:"promocionado"},
     {nombre: "ana", estado:"regular"},
-];
+]}
