@@ -11,8 +11,52 @@ segunda ctu
 
 
 
+            esto es de los estudiantes
+
+                        <div class="container mt-4" >
+                        <div class="row">
+                            <h3>listado de estudiantes</h3>
+                            <br>
+                            <table class="table">
+                            <thead>
+                                <th>no</th>
+                                <th>nombre</th>
+                                <th>estado</th>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let estudiantes of listaEstudiantes; let i = index">
+                                <td>{{i +1}}</td>
+                                <td>{{estudiantes.nombre}}</td>
+                                <td>{{estudiantes.estado}}</td>
+                                </tr>
+                            </tbody>
+                            </table>
+                        </div>
+                        </div>
+
+
+                        import { Component } from '@angular/core';
+
+                        @Component({
+                        selector: 'app-root',
+                        templateUrl: './app.component.html',
+                        styleUrls: ['./app.component.css']
+                        })
+
+
+                        export class AppComponent {
+                        listaEstudiantes: any[] = [
+                            {nombre: "thomas", estado:"promocionado"},
+                            {nombre: "ana", estado:"regular"},
+                        ]}
+
+
+
+
 
 
 directivas
 coponente       artributos          escruturas 
                 ngclass 
+                ng style
+                ng if
