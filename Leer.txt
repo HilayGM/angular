@@ -27,3 +27,8 @@ para iniciar los diferentes proyectos de las clases descarga
         cd piano 
             cd pianos
                 ng serve
+
+
+una ves estando en el proyecto no va a correr si no antes corres este codigo 
+
+            npm i 
