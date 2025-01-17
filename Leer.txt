@@ -1,0 +1,29 @@
+este es el repositorio de mbyMe , este es un conjunto de proyectos de angular para iniciarlo primero tener 
+
+            npx             6.14.18   
+            nvm             1.1.12
+            angular         12.22.12
+
+    si no tienes ninguno de lo anterior mencionado solo abre cmd con permisos de admin y pon 
+_________________________________________________________________________________________________
+            npx     |       npm install -g npx@6.14.18 
+                    |         npx -v
+_________________________________________________________________________________________________
+            npm     |       https://github.com/coreybutler/nvm-windows/releases/tag/1.1.12
+                    |
+                    |        nvm version
+_________________________________________________________________________________________________
+            angular |
+                    |       npm install -g @angular/cli@12.22.12
+
+
+            
+
+
+para iniciar los diferentes proyectos de las clases descarga
+        cd my-app
+            ng serve
+
+        cd piano 
+            cd pianos
+                ng serve
