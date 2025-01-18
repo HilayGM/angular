@@ -1,6 +1,14 @@
-<div class="jumbotron text-center">
-  <button class="btn btn-success btn-lg">tirar dados</button>
+<h6>Dados 5B MMl</h6>
+<div class="jumbotron">
+  <button class="btn btn-success btn-lg" (click)="tirarDados()">Tirar dados</button>
   <br><br>
-  <img src="../assets/img/img/dice1.png" alt="">
-  <img src="../assets/img/img/dice2.png" alt="">
+  <img class="imgc" [src]="dadoizquierdo" alt="Dado izquierdo">
+  <img class="imgc" [src]="dadoDerecho" alt="Dado derecho">
+  <h3 *ngIf="numero1 === numero2">
+    <span class="badge badge-success">¡Ganaste!</span>
+  </h3>
+  <h3 *ngIf="numero1 !== numero2"><!--son diferentes no estan los tres ===-->
+    <span class="badge badge-danger">jajaj no</span>
+  </h3>
+
 </div>
