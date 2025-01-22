@@ -1,21 +1,81 @@
-
-<div class="list-group">
-  <h1>esto es un piano</h1>
-  <div class="list-group">
-    <h1>esto es un piano</h1>
-    <a (click)="aplicacion(1)" class="list-group-item list-group-item-action list-group-item-secondary">do</a>
-    <a (click)="aplicacion(2)" class="list-group-item list-group-item-action list-group-item-success">re</a>
-    <a (click)="aplicacion(3)" class="list-group-item list-group-item-action list-group-item-warning">mi</a>
-    <a (click)="aplicacion(4)" class="list-group-item list-group-item-action list-group-item-primary">fa</a>
-    <a (click)="aplicacion(5)" class="list-group-item list-group-item-action list-group-item-info">sol</a>
-    <a (click)="aplicacion(6)" class="list-group-item list-group-item-action list-group-item-light">la</a>
-    <a (click)="aplicacion(7)" class="list-group-item list-group-item-action list-group-item-danger">re</a>
+<div class="piano-container">
+  <h1 class="piano-title">Piano Interactivo</h1>
+  <div class="piano-keys">
+    <button (click)="aplicacion(1)" class="piano-key key-do">Do</button>
+    <button (click)="aplicacion(2)" class="piano-key key-re">Re</button>
+    <button (click)="aplicacion(3)" class="piano-key key-mi">Mi</button>
+    <button (click)="aplicacion(4)" class="piano-key key-fa">Fa</button>
+    <button (click)="aplicacion(5)" class="piano-key key-sol">Sol</button>
+    <button (click)="aplicacion(6)" class="piano-key key-la">La</button>
+    <button (click)="aplicacion(7)" class="piano-key key-si">Si</button>
   </div>
-  
 </div>
-<!--
-<audio controls>
-  <source src="../assets/sonidos/note1.wav">
 
-</audio>
--->
+<style>
+.piano-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.piano-title {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.piano-keys {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.piano-key {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.piano-key:hover {
+  background-color: #e6e6e6;
+  transform: scale(1.05);
+}
+
+.key-do {
+  background-color: #ff9999;
+}
+
+.key-re {
+  background-color: #99cc99;
+}
+
+.key-mi {
+  background-color: #ffcc66;
+}
+
+.key-fa {
+  background-color: #66cccc;
+}
+
+.key-sol {
+  background-color: #6699ff;
+}
+
+.key-la {
+  background-color: #cccccc;
+}
+
+.key-si {
+  background-color: #ff6666;
+}
+</style>
