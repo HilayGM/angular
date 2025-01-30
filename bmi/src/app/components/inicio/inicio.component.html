@@ -1,1 +1,51 @@
-<p>inicio works!</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="izq"></div>
+        <div class="cent">
+            <h1>BMI CALCULATOR</h1>
+            <div class="btnn">
+                <button>Masculino</button>
+                <button>Femenino</button>
+            </div>
+            <div class="altura">
+                <div>Altura</div>
+                <input type="range" class="slider" min="120" max="220" value="170" oninput="updateHeight(this.value)">
+                <div id="height-value">170 cm</div>
+            </div>
+            <div class="peso">
+                <div class="pesoo">
+                    <h4>peso</h4>
+                    <p>60</p>
+                    <button>+</button>
+                    <button> - </button>
+                </div>
+                <div class="edad">
+                    <h4>peso</h4>
+                    <p>60</p>
+                    <button>+</button>
+                    <button> - </button>
+                </div>
+            </div>
+            <div class="calcular">
+                <button>CALCULAR</button>
+            </div>
+            <div class="resultado">
+                <p>Resultado</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate mollitia quos esse aut repudiandae error explicabo earum provident ipsam, maiores sint nisi fugit itaque beatae consectetur, vero excepturi sapiente. Deleniti!</p>
+            </div>
+        </div>
+        <div class="dere"></div>
+    </div>
+</body>
+
+</html>

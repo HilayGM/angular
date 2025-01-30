@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #0a0e21;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-family: "Raleway", serif;
+}
+.titulo{
+    text-align: center;
+    margin-top: 25px;
+}
+.row{
+    margin-top: 20px;
+}
+
+.btn-color{
+    background-color: #FF3366;
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+}
