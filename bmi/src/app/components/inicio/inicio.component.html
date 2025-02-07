@@ -1,51 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="app.css">
-    <title>Document</title>
-</head>
-
-<body>
-    <div class="container">
-        <div class="izq"></div>
-        <div class="cent">
-            <h1>BMI CALCULATOR</h1>
-            <div class="btnn">
-                <button>Masculino</button>
-                <button>Femenino</button>
-            </div>
-            <div class="altura">
-                <div>Altura</div>
-                <input type="range" class="slider" min="120" max="220" value="170" oninput="updateHeight(this.value)">
-                <div id="height-value">170 cm</div>
-            </div>
-            <div class="peso">
-                <div class="pesoo">
-                    <h4>peso</h4>
-                    <p>60</p>
-                    <button>+</button>
-                    <button> - </button>
-                </div>
-                <div class="edad">
-                    <h4>peso</h4>
-                    <p>60</p>
-                    <button>+</button>
-                    <button> - </button>
-                </div>
-            </div>
-            <div class="calcular">
-                <button>CALCULAR</button>
-            </div>
-            <div class="resultado">
-                <p>Resultado</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate mollitia quos esse aut repudiandae error explicabo earum provident ipsam, maiores sint nisi fugit itaque beatae consectetur, vero excepturi sapiente. Deleniti!</p>
+<div class="row">
+  <div class="col-lg-4 offset-lg-4">
+    <h2 class="titulo">BMI Calculator</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="fondoItem">
+          <div class="contenedor">
+            <i class="fa-solid fa-mars sexo"></i>
+            <p>Masculino</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="fondoItem">
+          <div class="contenedor">
+            <i class="fa-solid fa-venus sexo"></i>
+            <p>Femenino</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="fondoItem">
+            <div class="contenedor">
+                <p>Altura</p>
+                <div class="estiloNumero">170</div>
+                <div>cm</div>
             </div>
         </div>
-        <div class="dere"></div>
+      </div>
     </div>
-</body>
-
-</html>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="fondoItem">1</div>
+      </div>
+      <div class="col-lg-6">
+        <div class="fondoItem">4</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <button class="btn btn-lg btn-block btn-color">CALCULAR</button>
+      </div>
+    </div>
+  </div>
+</div>

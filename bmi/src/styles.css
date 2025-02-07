@@ -1,21 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
 body{
     background-color: #0a0e21;
-    font-family: Arial, sans-serif;
     color: white;
-    font-family: "Raleway", serif;
 }
 .titulo{
     text-align: center;
     margin-top: 25px;
+    font-family: "Raleway", serif;
+    text-align: center;
+    color: white;
 }
 .row{
     margin-top: 20px;
 }
 
 .btn-color{
+    text-align: center;
     background-color: #FF3366;
-    border: none;
+    border: transparent !important;;
     border-radius: 25px;
     width: 100%;
+    color: white;
+
+}
+.btn-color:hover{
+    background-color: #FF3366;
+    color: #d7c8cc;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
 }
