@@ -19,6 +19,18 @@
     font-weight: 400;
     margin-left: -10px;
 }
-.form-range{
-    
+.custom-range{
+    padding: 0px 20px;
+}
+
+
+input[type=range]::-webkit-slider-thumb{
+    background-color: #FF3366;
+}
+.sumaResta{
+    cursor: pointer;
+    background-color: #FF3366;
+    padding: 7px;
+    margin-left: 3px;
+    border-radius: 100px;
 }
