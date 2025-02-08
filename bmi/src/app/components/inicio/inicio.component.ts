@@ -9,6 +9,8 @@ export class InicioComponent implements OnInit {
   edad=25;
   peso=70;
   altura=170;
+  sexo = 'masculino';
+
 
   constructor() { }
 
@@ -17,5 +19,11 @@ export class InicioComponent implements OnInit {
  cambiarAltura(event:any){
 //  console.log(event.target.value);
   this.altura = event.target.value;
+ }
+ masculino(): void {
+  this.sexo = 'masculino';
+ }
+ femenino(): void {
+  this.sexo = 'femenino';
  }
 }
