@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MonstersService } from './services/monsters.service';
+import { MonstersService } from '../../services/monsters.service';
 
 @Component({
   selector: 'app-root',
